@@ -11,15 +11,15 @@
     flex-direction: column;
 
     @include large{
-        background-color: gold;
+        // background-color: gold;
         max-width: 1280px;
     }
     @include medium{
-        background-color: #a6faa6;
+        // background-color: #a6faa6;
         max-width: 768px;
     }
     @include small{
-        background-color: #62cafa;
+        // background-color: #62cafa;
         max-width: 640px;
     }
     .content{
