@@ -1,0 +1,18 @@
+.notfound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+
+    .pnf{
+        font-size: 4rem;
+        color: red;
+        margin: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+        color: #cae0ee;
+    }
+}
+
