@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -11,7 +12,8 @@ const Navbar = () => {
           <span>EkereHomes</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
+        {/* <a href="/">About</a> */}
+        <Link to ={"/list"} >About</Link>
         <a href="/">Contact</a>
         <a href="/">Agents</a>
       </div>
@@ -29,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
-          <a href="/">About</a>
+          <a href="/list">About</a>
           <a href="/">Contact</a>
           <a href="/">Agents</a>
           <a href="/">Sign in</a>
